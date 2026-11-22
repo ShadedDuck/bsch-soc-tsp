@@ -21,3 +21,28 @@ C:\Users\OR02DF\OneDrive - UHI\Dev\TspStarter\obj\Debug\net8.0\refint\TspStarter
 C:\Users\OR02DF\OneDrive - UHI\Dev\TspStarter\obj\Debug\net8.0\TspStarter.pdb
 C:\Users\OR02DF\OneDrive - UHI\Dev\TspStarter\obj\Debug\net8.0\TspStarter.genruntimeconfig.cache
 C:\Users\OR02DF\OneDrive - UHI\Dev\TspStarter\obj\Debug\net8.0\ref\TspStarter.dll
+C:\Users\Oliver\Documents\GitHub\bsch-soc-tsp\bin\Debug\net8.0\Data\berlin52.tsp
+C:\Users\Oliver\Documents\GitHub\bsch-soc-tsp\bin\Debug\net8.0\Data\eil51-subset-10.tsp
+C:\Users\Oliver\Documents\GitHub\bsch-soc-tsp\bin\Debug\net8.0\Data\eil51-subset-4.tsp
+C:\Users\Oliver\Documents\GitHub\bsch-soc-tsp\bin\Debug\net8.0\Data\eil51-subset-6.tsp
+C:\Users\Oliver\Documents\GitHub\bsch-soc-tsp\bin\Debug\net8.0\Data\eil51-subset-8.tsp
+C:\Users\Oliver\Documents\GitHub\bsch-soc-tsp\bin\Debug\net8.0\Data\eil51.tsp
+C:\Users\Oliver\Documents\GitHub\bsch-soc-tsp\bin\Debug\net8.0\Data\eil76.tsp
+C:\Users\Oliver\Documents\GitHub\bsch-soc-tsp\bin\Debug\net8.0\Data\example-four.tsp
+C:\Users\Oliver\Documents\GitHub\bsch-soc-tsp\bin\Debug\net8.0\Data\kroA100.tsp
+C:\Users\Oliver\Documents\GitHub\bsch-soc-tsp\bin\Debug\net8.0\TspStarter.exe
+C:\Users\Oliver\Documents\GitHub\bsch-soc-tsp\bin\Debug\net8.0\TspStarter.deps.json
+C:\Users\Oliver\Documents\GitHub\bsch-soc-tsp\bin\Debug\net8.0\TspStarter.runtimeconfig.json
+C:\Users\Oliver\Documents\GitHub\bsch-soc-tsp\bin\Debug\net8.0\TspStarter.dll
+C:\Users\Oliver\Documents\GitHub\bsch-soc-tsp\bin\Debug\net8.0\TspStarter.pdb
+C:\Users\Oliver\Documents\GitHub\bsch-soc-tsp\obj\Debug\net8.0\TspStarter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Oliver\Documents\GitHub\bsch-soc-tsp\obj\Debug\net8.0\TspStarter.AssemblyInfoInputs.cache
+C:\Users\Oliver\Documents\GitHub\bsch-soc-tsp\obj\Debug\net8.0\TspStarter.AssemblyInfo.cs
+C:\Users\Oliver\Documents\GitHub\bsch-soc-tsp\obj\Debug\net8.0\TspStarter.csproj.CoreCompileInputs.cache
+C:\Users\Oliver\Documents\GitHub\bsch-soc-tsp\obj\Debug\net8.0\TspStarter.sourcelink.json
+C:\Users\Oliver\Documents\GitHub\bsch-soc-tsp\obj\Debug\net8.0\TspStarter.dll
+C:\Users\Oliver\Documents\GitHub\bsch-soc-tsp\obj\Debug\net8.0\refint\TspStarter.dll
+C:\Users\Oliver\Documents\GitHub\bsch-soc-tsp\obj\Debug\net8.0\TspStarter.pdb
+C:\Users\Oliver\Documents\GitHub\bsch-soc-tsp\obj\Debug\net8.0\TspStarter.genruntimeconfig.cache
+C:\Users\Oliver\Documents\GitHub\bsch-soc-tsp\obj\Debug\net8.0\ref\TspStarter.dll
+C:\Users\Oliver\Documents\GitHub\bsch-soc-tsp\obj\Debug\net8.0\TspStarter.csproj.Up2Date
