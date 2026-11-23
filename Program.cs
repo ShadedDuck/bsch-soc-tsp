@@ -2,7 +2,7 @@ using System.Diagnostics;
 using TspStarter;
 
 // EXPERIMENT SETTINGS: put downloaded .tsp files in Data and change this filename.
-string datasetFile = "Data/berlin52.tsp";
+string datasetFile = "Data/example-four.tsp";
 int startCity = 0;                // Array index 0 corresponds to city 1 in the file.
 double? knownOptimalCost = null;  // Optional: published optimum for this EXACT dataset.
 bool runNearestNeighbour = false; // Enable after completing task 1.

@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Oliver\\Documents\\GitHub\\bsch-soc-tsp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EBF3009C-DD7D-0B1F-56A5-F13AE0212F69}|TspStarter.csproj|c:\\users\\oliver\\documents\\github\\bsch-soc-tsp\\bruteforce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EBF3009C-DD7D-0B1F-56A5-F13AE0212F69}|TspStarter.csproj|solutionrelative:bruteforce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EBF3009C-DD7D-0B1F-56A5-F13AE0212F69}|TspStarter.csproj|c:\\users\\oliver\\documents\\github\\bsch-soc-tsp\\studentalgorithms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBF3009C-DD7D-0B1F-56A5-F13AE0212F69}|TspStarter.csproj|solutionrelative:studentalgorithms.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EBF3009C-DD7D-0B1F-56A5-F13AE0212F69}|TspStarter.csproj|c:\\users\\oliver\\documents\\github\\bsch-soc-tsp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EBF3009C-DD7D-0B1F-56A5-F13AE0212F69}|TspStarter.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EBF3009C-DD7D-0B1F-56A5-F13AE0212F69}|TspStarter.csproj|c:\\users\\oliver\\documents\\github\\bsch-soc-tsp\\bruteforce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EBF3009C-DD7D-0B1F-56A5-F13AE0212F69}|TspStarter.csproj|solutionrelative:bruteforce.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,12 +31,25 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "StudentAlgorithms.cs",
+              "DocumentMoniker": "C:\\Users\\Oliver\\Documents\\GitHub\\bsch-soc-tsp\\StudentAlgorithms.cs",
+              "RelativeDocumentMoniker": "StudentAlgorithms.cs",
+              "ToolTip": "C:\\Users\\Oliver\\Documents\\GitHub\\bsch-soc-tsp\\StudentAlgorithms.cs",
+              "RelativeToolTip": "StudentAlgorithms.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAUwGQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-11-17T22:56:41.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "BruteForce.cs",
               "DocumentMoniker": "C:\\Users\\Oliver\\Documents\\GitHub\\bsch-soc-tsp\\BruteForce.cs",
               "RelativeDocumentMoniker": "BruteForce.cs",
               "ToolTip": "C:\\Users\\Oliver\\Documents\\GitHub\\bsch-soc-tsp\\BruteForce.cs",
               "RelativeToolTip": "BruteForce.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAUwBsAAAAZAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-11-17T22:53:17.828Z",
               "EditorCaption": ""
@@ -45,9 +62,10 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\Oliver\\Documents\\GitHub\\bsch-soc-tsp\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAABXAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-11-17T22:53:18.094Z"
+              "WhenOpened": "2026-11-17T22:53:18.094Z",
+              "EditorCaption": ""
             }
           ]
         }

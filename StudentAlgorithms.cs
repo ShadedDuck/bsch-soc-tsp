@@ -1,4 +1,5 @@
 using System.Security.Cryptography;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace TspStarter;
 
@@ -9,61 +10,96 @@ public static class StudentAlgorithms
     // Use distances[from, to] and choose a consistent rule for ties.
     public static int[] NearestNeighbour(double[,] distances, int startCity)
     {
-        throw new NotImplementedException("Implement nearest neighbour here.");
-        //P, Sindhukumari. “Traveling Salesman Problem.” Medium, 25 Dec. 2022, sindhukumari.medium.com/traveling-salesman-problem-9deb6853ac6. Accessed 17 Nov. 2026.
-         /*'''
-             Implementing Nearest Neighbor Heuristic to solve Traveling Salesman problems
-            '''
-            def tspNearestNeighborHeuristic(cities, distance):
-                visited = []
-                minimum_distance_traveled = []
+        //throw new NotImplementedException("Implement nearest neighbour here.");
+        //computer geek. ““Master the Nearest Neighbour TSP Algorithm With Step-by-Step Examples and Source Code.”” Computer Geek, 24 Aug. 2024, compgeek.co.in/nearest-neighbour-problem/. Accessed 22 Nov. 2026.
+        
+        double[] visited = new double[distances.Length];  // Array to mark visited cities
+        int[] tour = new int[10];          // Array to store the tour
+        int totalDistance = 0;
+        int currentCity = 0;           // Starting city
+        int nearestCity;
+        int i, j;
 
-                neighbor = 'A'
-                start_node_index = cities.index(neighbor)
+        // Initialize
+        visited[currentCity] = 1;       // Mark the starting city as visited
+        tour[0] = currentCity;
+        int tourLength = 1;
 
-                no_nodes = len(cities)
-                noN = 0
-                while noN < no_nodes and neighbor not in visited:
+        // Iterative Process
+        for (i = 1; i < n; i++)
+        {
+            int minDistance = 999999;   // Large number for comparison
+            nearestCity = -1;
 
-                    visited.append(neighbor)
-                    neighbor_index = cities.index(neighbor)
-                    noNeigjbour = 0
-                    MIN = 0
+            // Find the nearest unvisited city
+            for (j = 0; j < n; j++)
+            {
+                if (!visited[j] && distances[currentCity][j] < minDistance)
+                {
+                    minDistance = distanceMatrix[currentCity][j];
+                    nearestCity = j;
+                }
+            }
+            // Move to the nearest city
+            visited[nearestCity] = 1;
+            tour[tourLength++] = nearestCity;
+            totalDistance += minDistance;
+            currentCity = nearestCity;
+        }
 
-                    while noNeigjbour < len(distance[neighbor_index]):
+        // Return to the starting city
+        totalDistance += distanceMatrix[currentCity][0];
+        tour[tourLength] = 0;
 
-                        if cities[noNeigjbour] not in visited: #look for unvisitied cities.
-                            if MIN == 0:
-                                MIN = distance[neighbor_index][noNeigjbour]
-                                neighbor = cities[noNeigjbour]
-                            else:
-                                min_distance = min(distance[neighbor_index][noNeigjbour], MIN)
-                                if distance[neighbor_index][noNeigjbour] < MIN:
-                                    MIN = min_distance
-                                    neighbor = cities[noNeigjbour]
-                        noNeigjbour += 1
-                    minimum_distance_traveled.append(MIN)
-                    noN += 1
-                last_node_index = cities.index(visited[-1])
-                minimum_distance_traveled[-1] = distance[last_node_index][start_node_index]
-                print('Shortest route : ', " -> ".join(visited))
-                for _i in range(len(visited)):
-                    print("City " + visited[_i] + "'s Nearest Neighbor's Distance is ", minimum_distance_traveled[_i])
-                print("total traveled distance: ", sum(minimum_distance_traveled))
+        // Output the Tour
+        printf(“Tour: “);
 
+        for (i = 0; i <= tourLength; i++)
+        {
+            printf(“% d “, tour[i]);
+        }
+        printf(“\nTotal Distance: % d\n”, totalDistance);
 
-
-            cities = ['A', 'B', 'C', 'D', 'E']
-            distance = [[0, 60, 217, 164, 69],
-                        [60, 0, 290, 201, 79],
-                        [217, 290, 0, 113, 303],
-                        [164, 201, 113, 0, 196],
-                        [69, 79, 303, 196, 0]]
-
-            tspNearestNeighborHeuristic(cities, distance)
-         */
+        return ;
     }
 
+    /*
+     * def nearest_neighbor_tsp(distances):
+    n = len(distances)
+    visited = [False] * n
+    route = [0]
+    visited[0] = True
+    total_distance = 0
+
+    for _ in range(1, n):
+        last = route[-1]
+        nearest = None
+        min_dist = float('inf')
+        for i in range(n):
+            if not visited[i] and distances[last][i] < min_dist:
+                min_dist = distances[last][i]
+                nearest = i
+        route.append(nearest)
+        visited[nearest] = True
+        total_distance += min_dist
+
+    total_distance += distances[route[-1]][0]
+    route.append(0)
+    return route, total_distance
+
+distances = [
+    [0, 2, 2, 5, 9, 3],
+    [2, 0, 4, 6, 7, 8],
+    [2, 4, 0, 8, 6, 3],
+    [5, 6, 8, 0, 4, 9],
+    [9, 7, 6, 4, 0, 10],
+    [3, 8, 3, 9, 10, 0]
+]
+
+route, total_distance = nearest_neighbor_tsp(distances)
+print("Route:", route)
+print("Total distance:", total_distance)
+     */
     // TASK 2: improve the supplied route using 2-opt.
     // Copy initialRoute before editing; preserve the start city and do not worsen cost.
     // The loaded EUC_2D matrices are symmetric. Explain your move-selection/stopping policy.
